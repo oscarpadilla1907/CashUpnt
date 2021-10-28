@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body{
+    background-color: #f4f7ff75 !important;
+}
+
+#active{
+    font-family: 'Rubik', sans-serif;
+    color: blue;
+    background-color: #f4f7ff75 !important;
+}
+
+#noactivo{
+    font-family: 'Rubik', sans-serif;
+    color: grey;
+    background-color: white;
+}
+
+.container1{
+    margin-top: 3%;
+}
+
+#fijos{
+    color: gray;
+}
+
+#fijos2{
+    color: blue;
+}
+
+#gastos2{
+    color: gray;
+}
+
+.container2{
+    margin-top: 7%;
+}
+
+.card-title{
+    font-family: 'Rubik', sans-serif;
+}
+
+.card-text{
+    font-family: 'Rubik', sans-serif;
+}
+
+.asuntogasto{
+    color:rgb(252, 150, 61);
+}
+
+.card{
+    margin-top: 5%;
+}
+
+.add{
+    width:30px;
+    transition: all 1s;
+}
+
+.add:hover{
+    transform: scale(1.2);
+}
+
+html{ height:100%; }
+body{ min-height:100%; padding:0; margin:0; position:relative; }
+
+body::after{ content:''; display:block; height:100px; }
+
+footer{ 
+  position:absolute; 
+  bottom:0; 
+  width:100%; 
+  height:100px; 
+}
+
+
+/* FOR DEMO ONLY */
+body{ font:bold 1.2em/2.5 arial; text-align:center; }
+label{ cursor:pointer; display:inline-block; transition:1s ease; }
+:checked ~ label{ margin-bottom:1400px; }
+
+article{ width:40%; margin:0 auto; color:#444; }
+footer{ background:#dadeff; }
